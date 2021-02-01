@@ -42,8 +42,8 @@ public class NumberRepo {
     }
 
     void minMaxAB(double numberA, double numberB) {
-        double randomA = Math.random() * (numberA - numberB + 1) + numberB;
-        double randomB = Math.random() * (numberA - numberB + 1) + numberB;
+        double randomA = Math.random() * (numberA - numberB ) + numberB;
+        double randomB = Math.random() * (numberA - numberB ) + numberB;
 
         double logAB = Math.log(randomA) * randomB;
         double cosA = Math.cos(randomA);
